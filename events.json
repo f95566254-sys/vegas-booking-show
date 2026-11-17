@@ -1,0 +1,195 @@
+{
+  "show": "Carrot Top",
+  "venue": "Atrium Showroom, Luxor Hotel & Casino",
+  "timezone": "America/Los_Angeles",
+  "currency": "USD",
+  "priceNote": "Starting price per ticket, service fee included, taxes excluded",
+  "lastUpdated": "2026-11-15",
+  "officialUrl": "https://luxor.mgmresorts.com/book-show/carrot-top/?ecid=PT_BB_EN_TKTK_CTOPMG_LV_LX_121225",
+  "events": [
+    {
+      "date": "2026-11-23",
+      "time": "20:00",
+      "price": 57.72
+    },
+    {
+      "date": "2026-11-24",
+      "time": "20:00",
+      "price": 57.72
+    },
+    {
+      "date": "2026-11-25",
+      "time": "20:00",
+      "price": 57.72
+    },
+    {
+      "date": "2026-11-26",
+      "time": "20:00",
+      "price": 57.72
+    },
+    {
+      "date": "2026-11-27",
+      "time": "20:00",
+      "price": 57.72
+    },
+    {
+      "date": "2026-11-28",
+      "time": "20:00",
+      "price": 57.72
+    },
+    {
+      "date": "2026-11-30",
+      "time": "20:00",
+      "price": 57.72
+    }
+  ],
+  "feeEach": 8.72,
+  "maxTickets": 8,
+  "tiers": [
+    {
+      "base": 49,
+      "color": "#f2894f"
+    },
+    {
+      "base": 59,
+      "color": "#8c2150"
+    },
+    {
+      "base": 69,
+      "color": "#e02e8f"
+    },
+    {
+      "base": 79,
+      "color": "#6d4fd8"
+    }
+  ],
+  "listings": [
+    {
+      "section": "SEC3",
+      "row": "L",
+      "qty": 7,
+      "type": "standard",
+      "base": 49.0
+    },
+    {
+      "section": "SEC4",
+      "row": "M",
+      "qty": 5,
+      "type": "standard",
+      "base": 49.0
+    },
+    {
+      "section": "SEC2",
+      "row": "D",
+      "qty": 2,
+      "type": "wheelchair",
+      "base": 59.0
+    },
+    {
+      "section": "SEC2",
+      "row": "J",
+      "qty": 7,
+      "type": "standard",
+      "base": 59.0
+    },
+    {
+      "section": "SEC3",
+      "row": "K",
+      "qty": 16,
+      "type": "standard",
+      "base": 59.0
+    },
+    {
+      "section": "SEC3",
+      "row": "L",
+      "qty": 12,
+      "type": "standard",
+      "base": 59.0
+    },
+    {
+      "section": "SEC2",
+      "row": "D",
+      "qty": 2,
+      "type": "wheelchair",
+      "base": 69.0
+    },
+    {
+      "section": "SEC2",
+      "row": "F",
+      "qty": 6,
+      "type": "standard",
+      "base": 69.0
+    },
+    {
+      "section": "SEC2",
+      "row": "G",
+      "qty": 18,
+      "type": "standard",
+      "base": 69.0
+    },
+    {
+      "section": "SEC2",
+      "row": "H",
+      "qty": 24,
+      "type": "standard",
+      "base": 69.0
+    },
+    {
+      "section": "SEC2",
+      "row": "I",
+      "qty": 8,
+      "type": "standard",
+      "base": 69.0
+    },
+    {
+      "section": "SEC1",
+      "row": "A",
+      "qty": 3,
+      "type": "standard",
+      "base": 79.0
+    },
+    {
+      "section": "SEC1",
+      "row": "B",
+      "qty": 2,
+      "type": "standard",
+      "base": 79.0
+    },
+    {
+      "section": "SEC1",
+      "row": "C",
+      "qty": 7,
+      "type": "standard",
+      "base": 79.0
+    },
+    {
+      "section": "SEC2",
+      "row": "D",
+      "qty": 2,
+      "type": "wheelchair",
+      "base": 79.0
+    },
+    {
+      "section": "SEC2",
+      "row": "D",
+      "qty": 11,
+      "type": "standard",
+      "base": 79.0
+    },
+    {
+      "section": "SEC2",
+      "row": "E",
+      "qty": 4,
+      "type": "standard",
+      "base": 79.0
+    },
+    {
+      "section": "SEC2",
+      "row": "F",
+      "qty": 8,
+      "type": "standard",
+      "base": 79.0
+    }
+  ],
+  "listingsNote": "Seat listings are a snapshot copied from Luxor's Mon, Nov 23 seat map. Edit this list, or give a single event its own \"listings\" array."
+}

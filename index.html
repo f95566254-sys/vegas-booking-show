@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover Carrot Top's Las Vegas comedy show, check show information and continue to the official ticket seller.">
+  <title>Vegas Show Booking | Carrot Top in Las Vegas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topline">LAS VEGAS ENTERTAINMENT · SHOW INFORMATION & BOOKING LINKS</div>
+  <header class="site-header">
+    <a class="brand" href="#"><span class="brand-mark">V</span><span>VEGAS <b>SHOW BOOKING</b></span></a>
+    <nav aria-label="Main navigation">
+      <a href="#show">The show</a>
+      <a href="#tickets">Tickets</a>
+      <a href="#stay">Where to stay</a>
+    </nav>
+    <a class="header-cta" href="#tickets">Find tickets <span>↗</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="show">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">LIVE COMEDY IN LAS VEGAS</p>
+        <h1>CARROT TOP</h1>
+        <p class="hero-subtitle">A night of outrageous comedy, props and surprises.</p>
+        <div class="hero-meta"><span>THE ATRIUM SHOWROOM</span><i></i><span>LUXOR HOTEL & CASINO</span></div>
+        <a class="primary-button" href="#tickets">Explore show details <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="intro section-wrap">
+      <div>
+        <p class="eyebrow dark">THE LAS VEGAS EXPERIENCE</p>
+        <h2>Make a night of it.</h2>
+      </div>
+    </section>
+
+    <section class="show-card section-wrap" id="tickets">
+      <!-- VIDEO: put your file in the "videos" folder (public/videos/carrot-top.mp4).
+           To use another file, change the name in src below. -->
+      <div class="show-image has-video" id="showMedia">
+        <video controls playsinline preload="metadata" src="ScreenRecording_11-15-2026 20-40-09_1.mp4"></video>
+      </div>
+      <div class="show-details">
+        <p class="eyebrow dark">FEATURED SHOW</p>
+        <h2>Carrot Top</h2>
+        <p class="venue">Atrium Showroom · Luxor Hotel & Casino</p>
+        <div class="events" id="events">
+          <div class="events-head">
+            <h3>Upcoming performances</h3>
+            <span class="events-from" id="eventsFrom"></span>
+          </div>
+          <p class="events-hint">Select a date to choose your tickets and seats. All times are Las Vegas time (Pacific Time).</p>
+          <ul class="events-list" id="eventsList" aria-live="polite"><li class="events-loading">Loading dates…</li></ul>
+          <button type="button" class="more-button" id="moreEvents" hidden>Show more dates</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking-band" id="stay">
+      <div class="section-wrap booking-inner">
+        <div>
+          <p class="eyebrow">WHERE TO STAY</p>
+          <h2>Need a place to stay?</h2>
+          <p>Coming to see the show and not sure where to stay? Tell us your show date, how many of you are travelling and the kind of stay you want, and ask us anything about where to stay. Your message opens in your email app, ready to send. </p>
+        </div>
+        <form id="enquiryForm" class="enquiry-form">
+          <label>Your name<input name="name" required maxlength="100" placeholder="Full name"></label>
+          <label>Your email address<input name="email" type="email" required maxlength="150" placeholder="you@example.com"></label>
+          <div class="form-row">
+            <label>Show date<select name="eventDate" id="eventDateSelect"><option value="">Loading dates…</option></select></label>
+            <label>Number of guests<select name="guests"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label>
+          </div>
+          <label>What kind of stay?<select name="stayType"><option>Not sure yet</option><option>Hotel</option><option>Hostel / budget stay</option><option>Apartment / other</option></select></label>
+          <label>Your questions (optional)<textarea name="message" rows="3" maxlength="1000" placeholder="For example: budget, how close to Luxor, check-in dates"></textarea></label>
+          <button class="primary-button full" type="submit">Email your enquiry <span>→</span></button>
+          <p id="formStatus" class="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#"><span class="brand-mark">V</span><span>VEGAS <b>SHOW BOOKING</b></span></a>
+    <div><a href="#show">Show</a><a href="#tickets">Tickets</a><a href="#stay">Accommodation</a></div>
+    <small>© <span id="year"></span> Vegas Show Booking. All rights reserved.</small>
+  </footer>
+  <script src="config.js"></script>
+  <script src="booking.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
